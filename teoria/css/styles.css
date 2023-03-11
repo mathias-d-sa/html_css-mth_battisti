@@ -1,0 +1,178 @@
+/*COMENTÁRIO EM CSS*/
+h1 {
+  color: red;
+}
+
+/*id - # */
+h3 {
+  color: green
+}
+
+#title {
+  color: blue;
+}
+
+/*classes - . */
+.text {
+  color: palevioletred;
+}
+
+/*Background*/
+.background {
+  background-color: red;
+  color: blue;
+  font-size: 30px;
+}
+
+/*Dois elementos, Uma Regra*/
+p,
+.title-small {
+  color: lightseagreen
+}
+
+.title-small {
+  font-size: 22px;
+}
+
+/* Background-Image*/
+.background-image {
+  background-image: url("../img/meteoro.jpg");
+  padding: 20px;
+  color: aliceblue;
+  /*seletor de classe ganha do seletor de tag*/
+}
+
+/*Largura e Altura */
+#width-height {
+  width: 200px;
+  height: 100px;
+  color: aliceblue;
+  background-color: black;
+}
+
+/*Pedding*/
+#padding {
+  background-color: magenta;
+  padding: 20px;
+}
+
+/*Margin*/
+#margin {
+  background-color: gray;
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+}
+
+/*Border*/
+#border {
+  border: 9px solid rebeccapurple;
+  width: 175px;
+  height: 95px;
+  padding: 40xp;
+  margin: 30px;
+}
+
+/*Raio da Borda*/
+#border-radius {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+  border: 4px solid blue;
+  border: 7px dashed green;
+  border-radius: 15px;
+}
+
+/*Padrão de cores*/
+#rgb,
+#hsl,
+#hex {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+#hex {
+  background-color: #09AF;
+}
+
+#rgb {
+  background-color: rgb(14, 170, 144);
+}
+
+#hsl {
+  background-color: hsl(65, 91%, 46%);
+}
+
+/*ALinhamento*/
+#center {
+  text-align: center;
+}
+
+p {
+  font-size: 35px;
+}
+
+/*Decoration*/
+#underline {
+  text-decoration: underline;
+}
+
+#line {
+  text-decoration: line-through;
+}
+
+#sem-underline {
+  text-decoration: none;
+}
+
+/*Font Size*/
+#fonte-pequena {
+  font-size: 19px;
+}
+
+/*Transform Text*/
+#upper {
+  text-transform: uppercase;
+}
+
+#lower {
+  text-transform: lowercase;
+}
+
+/*Font Family*/
+#serif {
+  font-family: Georgia;
+}
+
+#sans-serif {
+  font-family: Helvetica;
+}
+
+#cursive {
+  font-family: cursive;
+}
+
+/*Display*/
+.inline {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 5px;
+  display: inline-block;
+}
+
+.block {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  margin: 5px;
+  display: block;
+}
+
+/*Ocultando Elemento*/
+#none {
+  display: none;
+}
+
+/*Position*/
